@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Frontity](https://frontity.org/).
 
+# Menu handling in WordPress
+[Plugin for WP REST API menus](https://github.com/WP-API/menus-endpoints)
+
 #### Table of Contents
 
 - [Launch a development server](#launch-a-development-server)
