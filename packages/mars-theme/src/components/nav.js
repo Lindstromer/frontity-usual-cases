@@ -7,11 +7,14 @@ import Link from "./link";
  *
  * It renders the navigation links
  */
-const Nav = ({ state }) => (
+const Nav = ({ state, libraries }) => (
   <NavContainer>
     {state.theme.menu.map(([name, link]) => {
       // Check if the link matched the current page url
       const isCurrentPage = state.router.link === link;
+
+      const { items } = state.source.get("menus/1"); // Fetch our menu, matching ID/state object name from action in index.js
+
       return (
         <NavItem key={name}>
           {/* If link url is the current page, add `aria-current` for a11y */}
