@@ -18,20 +18,8 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
+              "Formulär",
+              "/kontakta-oss/kontakt/synpunkter-och-tips/"
             ]
           ],
           "featured": {
@@ -45,7 +33,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.org/wp-json"
+          "api": "https://kiab.se/wp-json"
         }
       }
     },
